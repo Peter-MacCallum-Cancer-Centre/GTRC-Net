@@ -4,3 +4,4 @@ Deep Learning based tools for assessment of disease extent on PET/CT and SPECT/C
 
 ![github_website_example_case_mips](https://github.com/user-attachments/assets/9fcfa396-2c1d-492d-b39c-22c8536e1ddb)
 
+<img src="https://github.com/user-attachments/assets/9fcfa396-2c1d-492d-b39c-22c8536e1ddb" alt="example MIPs with agreement and Error" width="600"/>
