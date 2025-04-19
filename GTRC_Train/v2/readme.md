@@ -1,0 +1,1 @@
+Baseline code for DEEP PSMA Challenge and manuscript Deep Learning for Automated Prostate Cancer measures of SUV and Molecular Tumor Volume in PSMA, FDG PET/CT and Lutetium-177 PSMA Quantitative SPECT/CT with Global Threshold Regional Consensus Network (GTRC-Net)
