@@ -90,7 +90,7 @@ for d in [psma_folder,fdg_folder]:
         print('writing dataset json file:\n',dataset_json_fname)
         f.write(json.dumps(json_dict, indent=4))
 
-run nnUNet dataset plan and preprocess
+##run nnUNet dataset plan and preprocess
 os.system('nnUNetv2_plan_and_preprocess -d 801 -c 3d_fullres --verify_dataset_integrity')
 os.system('nnUNetv2_plan_and_preprocess -d 802 -c 3d_fullres --verify_dataset_integrity')
 
