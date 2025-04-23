@@ -11,6 +11,6 @@ Scripts set to run in sequence for DEEP-PSMA Training data.
 03 - Very short command run once to determine case splits for each fold in nnU-Net dataset  
 04 - Another short script to output the final labels for all training & validation cases with each nnU-Net fold  
 05 - Scores inferred tumour/normal overlap with watershed subregions as well as basic image measures (PET/CT mean intensity, etc) for training classifier.  
-06 - Trains MLP classifier. Sorry it's in tensorflow...  
+06 - Trains MLP classifier.   
   
 GTRc_Infer - Run inference based on trained models  
