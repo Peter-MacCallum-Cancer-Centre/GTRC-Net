@@ -4,6 +4,31 @@ import shutil
 
 raw_top='CHALLENGE_DATA'
 data_top='data'
+###############################################
+# LM: 23-04-2025
+###############################################
+# List of directories to unpack to
+dirs_to_create = [
+ './data',
+ 
+ 
+ './data/PSMA',
+ './data/PSMA/CT',
+ './data/PSMA/PET',
+ './data/PSMA/TTB',
+ './data/PSMA/thresholds',
+ 
+ './data/FDG',
+ './data/FDG/CT',
+ './data/FDG/PET',
+ './data/FDG/TTB',
+ './data/FDG/thresholds',
+    
+]
+
+for dir_path in dirs_to_create:
+ os.makedirs(dir_path, exist_ok=True)
+###############################################
 for case in os.listdir(raw_top):
     print(case)
     for tracer in ['PSMA','FDG']:
