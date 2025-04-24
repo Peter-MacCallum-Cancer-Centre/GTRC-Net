@@ -13,4 +13,4 @@ Scripts set to run in sequence for DEEP-PSMA Training data.
 05 - Scores inferred tumour/normal overlap with watershed subregions as well as basic image measures (PET/CT mean intensity, etc) for training classifier.  
 06 - Trains MLP classifier.   
   
-GTRc_Infer - Run inference based on trained models  
+GTRC_Infer - Run inference based on trained models  
