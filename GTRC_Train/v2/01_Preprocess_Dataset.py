@@ -64,9 +64,9 @@ for tracer in ['PSMA','FDG']: #loop through the tracers for each case
             output_folder=psma_folder
         elif tracer=='FDG':
             output_folder=fdg_folder
-        sitk.WriteImage(pt_rescaled,join(output_folder,'imagesTr',case+'_0000.nii.gz')) #write rescaled PET image to training image folder as channel 0
-        sitk.WriteImage(ct_resampled,join(output_folder,'imagesTr',case+'_0001.nii.gz')) #write CT matched to PET resolution image to training image folder as channel 1
-        sitk.WriteImage(ttb_normal_label,join(output_folder,'labelsTr',case+'.nii.gz')) #write output label (background/tumour/normal 0/1/2) to training label folder
+        sitk.WriteImage(pt_rescaled,join(output_folder,'imagesTr',,case.replace('.nii.gz','_0000.nii.gz'))) #write rescaled PET image to training image folder as channel 0
+        sitk.WriteImage(ct_resampled,join(output_folder,'imagesTr',,case.replace('.nii.gz','_0001.nii.gz'))) #write CT matched to PET resolution image to training image folder as channel 1
+        sitk.WriteImage(ttb_normal_label,join(output_folder,'labelsTr',case)) #write output label (background/tumour/normal 0/1/2) to training label folder
 
         sitk.WriteImage(normal_label,join(normal_dir,case))
         sitk.WriteImage(pt_rescaled,join(pet_rescaled_dir,case))
