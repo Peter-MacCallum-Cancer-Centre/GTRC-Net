@@ -38,5 +38,5 @@ for case in os.listdir(raw_top):
                         join(data_top,tracer,'PET',case+'.nii.gz'))        
         shutil.copyfile(join(raw_top,case,tracer,'TTB.nii.gz'),
                         join(data_top,tracer,'TTB',case+'.nii.gz'))
-        shutil.copyfile(join(raw_top,case,tracer,'threshold.txt'),
-                        join(data_top,tracer,'thresholds',case+'.txt')) 
+        shutil.copyfile(join(raw_top,case,tracer,'threshold.json'),
+                        join(data_top,tracer,'thresholds',case+'.json')) 

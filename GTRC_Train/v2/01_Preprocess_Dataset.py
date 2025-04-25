@@ -45,8 +45,8 @@ for tracer in ['PSMA','FDG']: #loop through the tracers for each case
         ct=sitk.ReadImage(join(input_dataset_folder,tracer,'CT',case)) #read CT as sitk image
         pt_suv=sitk.ReadImage(join(input_dataset_folder,tracer,'PET',case)) #read PET (units of SUV by default)
         ttb_label=sitk.ReadImage(join(input_dataset_folder,tracer,'TTB',case)) #read TTB label (natively in PET units)
-        with open(join(input_dataset_folder,tracer,'thresholds',case.replace('.nii.gz','.txt')),'r') as f:
-            suv_threshold=float(f.readlines()[0])
+        with open(join(input_dataset_folder,tracer,'thresholds',case.replace('.nii.gz','.json')),'r') as f:
+            suv_threshold=json.load(f)['suv_threshold']
             print('Detected contouring SUV threshold',suv_threshold)
         pt_rescaled=pt_suv/suv_threshold #rescale PET intensity values so 1.0 corresponds to contouring SUV threhold
         ct_resampled=sitk.Resample(ct,pt_suv,sitk.TranslationTransform(3),sitk.sitkLinear,-1000) #resample CT to PET resolution
