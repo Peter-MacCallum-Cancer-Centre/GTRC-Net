@@ -21,7 +21,7 @@ for tracer in list(dataset_dict): #iterate through both tracers ['PSMA','FDG']
     dataset_name='Dataset'+task_number+'_'+tracer+'_PET'
 ##    for fold in ['0','1','2','3','4']: #iterate through the 5 nnunet folds
     for fold in ['0']:
-        final_result_fname=join(nnunet_config_paths.nn_results_dir,dataset_name,'fold_'+fold,'checkpoint_final.pth')
+        final_result_fname=join(nnunet_config_paths.nn_results_dir,dataset_name,'nnUNetTrainer__nnUNetPlans__3d_fullres','fold_'+fold,'checkpoint_final.pth')
         print('checking for', final_result_fname) #check if training is completed previously
         if not os.path.exists(final_result_fname):
             print('not found, running nnUNetv2_train')
