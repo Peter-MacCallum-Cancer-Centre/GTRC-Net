@@ -33,6 +33,7 @@ def expand_contract_label(label,distance=5.0):
     label_single.CopyInformation(label)
     distance_filter = sitk.SignedMaurerDistanceMapImageFilter()
     distance_filter.SetUseImageSpacing(True)
+    distance_filter.SquaredDistanceOff()
     dmap=distance_filter.Execute(label_single)
     dmap_ar=sitk.GetArrayFromImage(dmap)
     new_label_ar=(dmap_ar<=distance).astype('int16')
