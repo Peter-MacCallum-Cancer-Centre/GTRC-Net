@@ -1,5 +1,5 @@
 # GTRC-Net
-Pre-trained model based on [DEEP-PSMA Grand Challenge](https://deep-psma.grand-challenge.org/) dataset now available for PSMA and FDG PET/CT segmentation (100 cases per tracer): https://github.com/jacksonmedphysics/GTRC-Net-DEEP-PSMA
+Pre-trained model based on [DEEP-PSMA Grand Challenge](https://deep-psma.grand-challenge.org/) dataset now available for PSMA and FDG PET/CT segmentation (100 cases per tracer): [https://github.com/jacksonmedphysics/GTRC-Net-DEEP-PSMA](https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-DEEP-PSMA)
 
 Model based on full manuscript dataset (PSMA PET/CT 676 Cases, FDG PET/CT 390 Cases, and LuPSMA SPECT/CT 477 Cases) to be released at conclusion of DEEP-PSMA Grand Challenge in September 2025.
 
