@@ -1,6 +1,6 @@
 # GTRC-Net
 
-Pre-trained model based on JNM Manuscript (https://doi.org/10.2967/jnumed.125.270077) with the omission of cases included in DEEP-PSMA testing dataset can be found in [GTRC-Net-Pretrained](https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-Pretrained).
+Pre-trained model based on JNM Manuscript (https://doi.org/10.2967/jnumed.125.270077) with the omission of cases included in DEEP-PSMA testing dataset can be found in [GTRC-Net-Pretrained](https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-Pretrained). Use the link for the most up-to-date pre-trained model AI segmentation of PSMA PET, FDG PET, and LuPSMA SPECT images. 
 
 Pre-trained model based on [DEEP-PSMA Grand Challenge](https://deep-psma.grand-challenge.org/) dataset now available for PSMA and FDG PET/CT segmentation (100 cases per tracer): https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-DEEP-PSMA.
 
