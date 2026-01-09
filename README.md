@@ -1,7 +1,8 @@
 # GTRC-Net
-Pre-trained model based on [DEEP-PSMA Grand Challenge](https://deep-psma.grand-challenge.org/) dataset now available for PSMA and FDG PET/CT segmentation (100 cases per tracer): https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-DEEP-PSMA
 
-Model based on full manuscript dataset (PSMA PET/CT 676 Cases, FDG PET/CT 390 Cases, and LuPSMA SPECT/CT 477 Cases) to be released at conclusion of DEEP-PSMA Grand Challenge in September 2025.
+Pre-trained model based on JNM Manuscript (https://doi.org/10.2967/jnumed.125.270077) with the omission of cases included in DEEP-PSMA testing dataset can be found in [GTRC-Net-Pretrained](https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-Pretrained).
+
+Pre-trained model based on [DEEP-PSMA Grand Challenge](https://deep-psma.grand-challenge.org/) dataset now available for PSMA and FDG PET/CT segmentation (100 cases per tracer): https://github.com/Peter-MacCallum-Cancer-Centre/GTRC-Net-DEEP-PSMA
 
 Deep Learning based tools for assessment of disease extent on PET/CT and SPECT/CT imaging\
 [code and pre-trained models to be released shortly. Manuscript [Deep Learning for Automated Prostate Cancer measures of SUV and Molecular Tumor Volume in PSMA, FDG PET/CT and Lutetium-177 PSMA Quantitative SPECT/CT with Global Threshold Regional Consensus Network (GTRC-Net) - submitted for publication to Journal of Nuclear Medicine]\
